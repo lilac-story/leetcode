@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "lib": ["esnext"],
+    "experimentalDecorators": true,
+    "declaration": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true
+  },
+  "include": [
+    "./mycode/*.ts",
+    "./types.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
